@@ -1,0 +1,45 @@
+/**********************************************************************/
+
+/*setting*/
+
+/**********************************************************************/
+
+/*setting fonts*/
+@font-face {
+  font-family: "Libre Franklin";
+  src: url(../Font/LibreFranklin-VariableFont_wght.ttf);
+  /*Weights: 300, 600, 700*/
+}
+
+/*setting colors*/
+$Blue: hsl(223, 87%, 63%);
+$PaleBlue: hsl(223, 100%, 88%);
+$LightRed: hsl(354, 100%, 66%);
+$Gray: hsl(0, 0%, 59%);
+$VeryDarkBlue: hsl(209, 33%, 12%);
+
+/*setting page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin-block: 0;
+  outline: none;
+}
+
+/*setting body*/
+body {
+  min-height: 100vh;
+  font-family: Libre Franklin;
+  font-size: 20px;
+  font-weight: 300;
+  background: rgb(255, 255, 255);
+  color: $VeryDarkBlue;
+  text-align: center;
+}
+/*setting link color (footer)*/
+a,
+a:visited {
+  color: $VeryDarkBlue;
+}
