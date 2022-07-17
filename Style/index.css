@@ -97,6 +97,22 @@ main .error {
   text-align: left;
   margin: 15px 0 0 24px;
 }
+main .error2 {
+  display: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: hsl(354deg, 100%, 66%);
+  text-align: left;
+  margin: 15px 0 0 24px;
+}
+main .thanks {
+  display: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: rgb(7, 163, 7);
+  text-align: left;
+  margin: 15px 0 0 24px;
+}
 main .background {
   width: 43%;
   height: 43%;
@@ -137,8 +153,11 @@ main p {
 main .active .error {
   display: block;
 }
-main .active input {
-  border: 1px solid hsl(354deg, 100%, 66%);
+main .hide .error2 {
+  display: block;
+}
+main .display .thanks {
+  display: block;
 }
 
 /*****align footer and set size and color*****/

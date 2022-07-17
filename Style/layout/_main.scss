@@ -66,6 +66,24 @@ main {
     margin: 15px 0 0 24px;
   }
 
+  .error2 {
+    display: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: $LightRed;
+    text-align: left;
+    margin: 15px 0 0 24px;
+  }
+
+  .thanks {
+    display: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: rgb(7, 163, 7);
+    text-align: left;
+    margin: 15px 0 0 24px;
+  }
+
   .background {
     width: 43%;
     height: 43%;
@@ -111,7 +129,11 @@ main {
     display: block;
   }
 
-  .active input {
-    border: 1px solid $LightRed;
+  .hide .error2 {
+    display: block;
+  }
+
+  .display .thanks {
+    display: block;
   }
 }
