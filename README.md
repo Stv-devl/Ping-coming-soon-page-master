@@ -29,9 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-IN CONSTRUCTION
-
-![](./screenshot.jpg)
+![](./Screenshot/Screenshot%202022-07-18.png)
 
 ### Links
 
@@ -52,8 +50,10 @@ IN CONSTRUCTION
 
 ### What I learned
 
-Here I learned to validate an Email form with Javascipt. I added an error message and change form border when have a typing error. If the form is empty an error message ask to "write your email"
-When the email is good a message say thank you and the form border become green.
+For this exercice i learned to validate an Email form with Javascipt.
+=> When we have a typing error we will have an error message and the border will be red
+=> When the form is empty we will have a different error message and the border will be red
+=> When the email is good we will have a thank you message and the border will be green
 
 ### Continued development
 
