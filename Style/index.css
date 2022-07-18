@@ -45,13 +45,20 @@ main {
   justify-content: space-evenly;
   align-items: center;
   min-height: 100vh;
+  /*set titles*/
 }
 main h1 {
   margin-bottom: 15px;
   color: hsl(0deg, 0%, 59%);
   font-weight: 300;
   letter-spacing: 1.5px;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+  /*Media =>set card size*/
+}
+@media screen and (max-width: 990px) {
+  main h1 {
+    font-size: 1.7rem;
+  }
 }
 main h1 span {
   color: hsl(209deg, 33%, 12%);
@@ -60,9 +67,11 @@ main h1 span {
 main h2 {
   margin-bottom: 20px;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
-main input {
+
+/*set imput and button*/
+input {
   color: hsl(0deg, 0%, 59%);
   font-size: 0.9rem;
   letter-spacing: 0.5px;
@@ -73,7 +82,16 @@ main input {
   border-radius: 25px;
   margin-right: 15px;
 }
-main button {
+@media screen and (max-width: 990px) {
+  input {
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+button {
   background: hsl(223deg, 87%, 63%);
   color: rgb(255, 255, 255);
   font-size: 1rem;
@@ -86,10 +104,19 @@ main button {
   box-shadow: 0px 5px 5px 2px rgba(123, 135, 157, 0.2);
   cursor: pointer;
 }
-main button:hover {
+button:hover {
   transform: scale(1.05);
 }
-main .error {
+@media screen and (max-width: 990px) {
+  button {
+    margin-top: 20px;
+    width: 90%;
+  }
+}
+
+/*set error message forempty email and wrong type*/
+.error,
+.error2 {
   display: none;
   font-weight: 600;
   font-size: 0.8rem;
@@ -97,15 +124,9 @@ main .error {
   text-align: left;
   margin: 15px 0 0 24px;
 }
-main .error2 {
-  display: none;
-  font-weight: 600;
-  font-size: 0.8rem;
-  color: hsl(354deg, 100%, 66%);
-  text-align: left;
-  margin: 15px 0 0 24px;
-}
-main .thanks {
+
+/*set thank you message*/
+.thanks {
   display: none;
   font-weight: 600;
   font-size: 0.8rem;
@@ -113,17 +134,35 @@ main .thanks {
   text-align: left;
   margin: 15px 0 0 24px;
 }
-main .background {
-  width: 43%;
-  height: 43%;
+
+.background {
+  width: 650px;
+  /*Media =>set card size*/
 }
-main ul {
+@media screen and (max-width: 990px) {
+  .background {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .background {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .background {
+    width: 320px;
+  }
+}
+
+/*set media icones*/
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 20px;
 }
-main ul li {
+ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,30 +172,36 @@ main ul li {
   height: 40px;
   cursor: pointer;
   transition: 0.4s ease;
-}
-main ul li:hover {
-  background-color: hsl(223deg, 87%, 63%);
-}
-main ul li i {
   color: hsl(223deg, 87%, 63%);
 }
-main ul li i:hover {
+ul li:hover {
+  background-color: hsl(223deg, 87%, 63%);
+}
+ul li:hover i {
   color: white;
   transform: scale(1.1);
 }
-main p {
-  font-size: 0.8rem;
+ul li i {
+  color: hsl(223deg, 87%, 63%);
+}
+
+p {
+  font-size: 0.7rem;
   color: hsl(0deg, 0%, 59%);
   font-weight: 600;
   letter-spacing: 1px;
 }
-main .active .error {
+
+/*set for activate with javascipt*/
+.active .error {
   display: block;
 }
-main .hide .error2 {
+
+.hide .error2 {
   display: block;
 }
-main .display .thanks {
+
+.display .thanks {
   display: block;
 }
 

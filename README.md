@@ -35,8 +35,8 @@ IN CONSTRUCTION
 
 ### Links
 
-- Solution URL: [IN CONSTRUCTION](https://your-solution-url.com)
-- Live Site URL: [IN CONSTRUCTION](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Stv-devl/Ping-coming-soon-page-master)
+- Live Site URL: [See the result](https://stv-devl.github.io/Ping-coming-soon-page-master/)
 
 ## My process
 
@@ -52,10 +52,14 @@ IN CONSTRUCTION
 
 ### What I learned
 
+Here I learned to validate an Email form with Javascipt. I added an error message and change form border when have a typing error. If the form is empty an error message ask to "write your email"
+When the email is good a message say thank you and the form border become green.
+
 ### Continued development
+
+Next step will be to validate a form more complex. And improve my JS of course.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Github](https://github.com/Stv-devl)
+- Frontend Mentor - [@Stv-devl](https://www.frontendmentor.io/profile/Stv-devl)
